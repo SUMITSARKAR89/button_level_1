@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<style>*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 100vh;
+
+}
+a{
+    text-decoration: none;
+    padding:15px 20px;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+    color: aquamarine;
+    letter-spacing: 3px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border:none;
+    border-radius: 8px;
+    transition: all 0.4s;
+}
+a:hover{
+    background-color: rgb(33, 235, 235);
+    color:black;
+    box-shadow: 0 0 5px rgb(201, 201, 228), 0 0 25px rgb(26, 224, 238);
+}
+/*advanced level*/
+a:first-child{
+    filter: hue-rotate(250deg)
+}
+a:last-child{
+    filter: hue-rotate(180deg);
+}
+</style>
+<body>
+    <div class="wrapper">
+        <a href="#">button</a>
+        <a href="#">click on</a>
+        <a href="#">Touch it</a>
+    </div>
+</body>
+</html>
